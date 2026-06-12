@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Vijay Kiran | Frontend Developer Portfolio</title>
+  <meta name="description" content="Personal portfolio of Vijay Kiran, a frontend web developer." />
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+  <!-- FontAwesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ===== Navigation ===== -->
+  <header class="navbar" id="navbar">
+    <nav class="nav container">
+      <a href="#home" class="logo">Vijay<span>.dev</span></a>
+
+      <ul class="nav-menu" id="nav-menu">
+        <li><a href="#home" class="nav-link">Home</a></li>
+        <li><a href="#about" class="nav-link">About</a></li>
+        <li><a href="#projects" class="nav-link">Projects</a></li>
+        <li><a href="#contact" class="nav-link">Contact</a></li>
+      </ul>
+
+      <button class="hamburger" id="hamburger" aria-label="Toggle menu">
+        <span class="bar"></span>
+        <span class="bar"></span>
+        <span class="bar"></span>
+      </button>
+    </nav>
+  </header>
+
+  <main>
+    <!-- ===== Hero Section ===== -->
+    <section class="hero" id="home">
+      <div class="container hero-content">
+        <div class="hero-text">
+          <p class="hero-greeting">Hello, I'm</p>
+          <h1 class="hero-title">Vijay Kiran</h1>
+          <h2 class="hero-subtitle">I'm a <span id="typed-text"></span><span class="cursor">|</span></h2>
+          <p class="hero-bio">
+            Hi, I'm Vijay Kiran.
+A Front-End Developer, Java Developer, DSA Solver, and Spring Boot Enthusiast passionate about building responsive web applications and scalable software solutions. I enjoy solving complex problems through Data Structures and Algorithms while continuously improving my skills in full-stack development and modern technologies.
+          </p>
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">View Work</a>
+            <a href="#contact" class="btn btn-outline">Contact Me</a>
+          </div>
+        </div>
+
+        <div class="hero-image">
+          <div class="image-wrapper">
+            <img src="./images/vijaythub-Photoroom.png" alt="John Doe profile photo">
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== About Section ===== -->
+    <section class="about" id="about">
+      <div class="container">
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">My introduction & skills</p>
+
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Who I am</h3>
+            <p>
+              Hello! I'm Vijay Kiran, a passionate Front-End Developer and Java Developer with a strong interest in building modern web applications and solving challenging programming problems. I enjoy turning ideas into interactive, user-friendly websites while continuously improving my problem-solving skills through Data Structures and Algorithms (DSA).
+
+My technical journey includes working with HTML, CSS, JavaScript, React, Java, and Spring Boot. I am particularly enthusiastic about backend development and creating scalable applications that combine efficient functionality with great user experiences.
+            </p>
+            <p>
+              With a background in both design and development, I bridge the gap between
+              aesthetics and functionality — building products that look great and perform
+              even better.
+            </p>
+      <a href="./images/vijaykiran_software_engineer45.pdf" class="btn btn-primary" download="VijayKiran_Resume.pdf">
+  <i class="fa-solid fa-download"></i> Download CV
+</a>
+          </div>
+
+          <div class="about-skills">
+            <h3>Core Skills</h3>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>HTML & CSS</span>
+                <span>95%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="95"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>JavaScript</span>
+                <span>90%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="90"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Java</span>
+                <span>85%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="85"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Python</span>
+                <span>80%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="80"></div>
+              </div>
+            </div>
+
+            <div class="skill-item">
+              <div class="skill-info">
+                <span>Responsive Development</span>
+                <span>92%</span>
+              </div>
+              <div class="skill-bar">
+                <div class="skill-progress" data-width="92"></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ===== Projects Section ===== -->
+    <section class="projects" id="projects">
+      <div class="container">
+        <h2 class="section-title">My Projects</h2>
+        <p class="section-subtitle">Some of my recent work</p>
+
+        <div class="projects-grid">
+
+          <!-- Project Card 1 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="./images/cleanwork.jpg">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" target="_blank" aria-label="Live demo" class="link-icon"><i class="fa-solid fa-eye"></i></a>
+                  <a href="https://github.com/VijayKiran-Beginner/Clean-Work_website" target="_blank" aria-label="Source code" class="link-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Clean work Website</h3>
+              <p>**Clean Work** is a modern service-booking web application that connects users with professional cleaning services, including office cleaning, kitchen cleaning, car washing, and factory cleaning. It provides a seamless booking experience with service selection, scheduling, payment processing, and booking confirmation features. 🚀
+</p>
+              <div class="project-tags">
+                <span>React JS</span>
+                <span>HTML</span>
+                <span>CSS</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 2 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="images/tourism.png">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" target="_blank" aria-label="Live demo" class="link-icon"><i class="fa-solid fa-eye"></i></a>
+                  <a href="https://github.com/VijayKiran-Beginner/Tourism-in-india" target="_blank" aria-label="Source code" class="link-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Tourism in India</h3>
+              <p>**Tourism in India** is a responsive travel and tourism website designed to help users explore popular destinations across India, discover cultural heritage, and plan their trips efficiently. It provides information about tourist attractions, travel services, accommodations, and transportation options through an intuitive and user-friendly interface. 🇮🇳✈️
+</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+              </div>
+            </div>
+          </article>
+
+                    <!-- Project Card 3 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="./images/maya.png">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" target="_blank" aria-label="Live demo" class="link-icon"><i class="fa-solid fa-eye"></i></a>
+                  <a href="https://github.com/VijayKiran-Beginner/maya-technical-hub-clone" target="_blank" aria-label="Source code" class="link-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Maya Technical Website</h3>
+              <p>**Maya Technical Hub Clone** is a responsive website replica of [Maya Technical Hub](https://mayatechnicalhub.com?utm_source=chatgpt.com), developed using HTML, CSS, and Bootstrap. The project recreates the platform's design, layout, and user interface while demonstrating responsive web development skills and effective use of Bootstrap components. 🚀💻</p>
+              <div class="project-tags">
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>JS</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </article>
+
+          <!-- Project Card 4 -->
+          <article class="project-card">
+            <div class="project-img">
+              <img src="./images/bigbasket.jpg">
+              <div class="project-overlay">
+                <div class="project-links">
+                  <a href="#" target="_blank" aria-label="Live demo" class="link-icon"><i class="fa-solid fa-eye"></i></a>
+                  <a href="https://github.com/VijayKiran-Beginner/bigbasket-clone" target="_blank" aria-label="Source code" class="link-icon"><i class="fa-brands fa-github"></i></a>
+                </div>
+              </div>
+            </div>
+            <div class="project-info">
+              <h3>Big basket clone</h3>
+              <p>**BigBasket Clone** is a responsive e-commerce grocery website inspired by the popular online grocery platform BigBasket. It allows users to browse products, manage their shopping cart, and experience a streamlined online grocery shopping interface with a focus on usability and responsive design. 🛒🥦🚀</p>
+              <div class="project-tags">
+                <span>JavaScript</span>
+                <span>HTML</span>
+                <span>CSS</span>
+                <span>Bootstrap</span>
+              </div>
+            </div>
+          </article>
+    </section>
+
+    <!-- ===== Contact Section ===== -->
+    <section class="contact" id="contact">
+      <div class="container">
+        <h2 class="section-title">Get In Touch</h2>
+        <p class="section-subtitle">Let's work together</p>
+
+        <div class="contact-content">
+          <div class="contact-info">
+            <h3>Contact Information</h3>
+            <p>Feel free to reach out for collaborations, freelance work, or just a friendly chat.</p>
+
+            <div class="info-item">
+              <i class="fa-solid fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>vijaykirankommoju.cse@gmail.com</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fa-solid fa-location-dot"></i>
+              <div>
+                <h4>Location</h4>
+                <p>Kakinada, AP, India -533002</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fa-solid fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>+91 8341586474</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <a href="https://github.com/VijayKiran-Beginner" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+              <a href="https://www.linkedin.com/in/vijay-kiran-kommoju/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+            </div>
+          </div>
+
+          <form class="contact-form" id="contact-form" novalidate>
+            <div class="form-group">
+              <label for="name">Name</label>
+              <input type="text" id="name" name="name" placeholder="Your full name" required>
+              <span class="error-message">Please enter your name.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" id="email" name="email" placeholder="your.email@example.com" required>
+              <span class="error-message">Please enter a valid email address.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="subject">Subject</label>
+              <input type="text" id="subject" name="subject" placeholder="What's this about?" required>
+              <span class="error-message">Please enter a subject.</span>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="5" placeholder="Tell me about your project..." required></textarea>
+              <span class="error-message">Please enter your message.</span>
+            </div>
+
+            <button type="submit" class="btn btn-primary">
+              <i class="fa-solid fa-paper-plane"></i> Send Message
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ===== Footer ===== -->
+  <footer class="footer">
+    <div class="container footer-content">
+      <p>&copy; <span id="year"></span> Vijay Kiran. All rights reserved.</p>
+      <div class="footer-socials">
+        <a href="https://github.com/VijayKiran-Beginner" aria-label="GitHub"><i class="fa-brands fa-github"></i></a>
+        <a href="https://www.linkedin.com/in/vijay-kiran-kommoju/" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+      </div>
+    </div>
+  </footer>
+
+  <!-- ===== Back to Top Button ===== -->
+  <button id="backToTop" aria-label="Back to top">
+    <i class="fa-solid fa-arrow-up"></i>
+  </button>
+
+  <!-- Custom JS -->
+  <script src="script.js"></script>
+</body>
+</html>
