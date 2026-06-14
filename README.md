@@ -1,54 +1,67 @@
-# Personal Portfolio Website
+# Vijay Kiran | Portfolio Website
 
-A responsive personal portfolio website developed using HTML, CSS, and JavaScript as part of Task 1 of the Apex Planet Internship.
+A personal portfolio website for Vijay Kiran — Frontend Developer, Java Developer, DSA Solver, and Spring Boot Enthusiast. The site showcases skills, projects, and contact information through a modern, responsive, dark-themed UI.
 
-## Features
+🔗 **Live Demo:** https://vijaykiran-beginner.github.io/Personal-Portfolio-Website/
 
-- Responsive Web Design
-- Modern User Interface
-- CSS Animations and Transitions
-- JavaScript Form Validation
-- About Me Section
-- Skills Section
-- Projects Showcase
-- Contact Form
-- Mobile-Friendly Layout
+## ✨ Features
 
-## Technologies Used
+- **Responsive design** — works seamlessly across desktop, tablet, and mobile
+- **Animated hero section** with a dynamic typing effect cycling through roles
+- **Sticky navbar** with scroll-based styling and mobile hamburger menu
+- **About section** with animated skill progress bars
+- **Projects showcase** with hover overlays linking to live demos and GitHub repos
+- **Contact form** with real-time client-side validation
+- **Resume download** button (forces PDF download)
+- **Back-to-top** button with smooth scroll
+- **Auto-updating footer year**
+
+## 🛠️ Tech Stack
 
 - HTML5
-- CSS3
-- JavaScript
+- CSS3 (CSS Variables, Flexbox, Grid, Media Queries)
+- JavaScript (Vanilla)
+- [Font Awesome](https://fontawesome.com/) for icons
+- [Google Fonts](https://fonts.google.com/) (Poppins)
 
-## Projects Included
+## 📂 Project Structure
 
-### Clean Work
-A service booking website for office cleaning, kitchen cleaning, car washing, and factory cleaning.
+```
+├── index.html      # Main HTML structure
+├── style.css       # Styling, animations, and responsive layout
+├── script.js       # Interactivity: typing effect, validation, scroll behavior
+├── images/         # Profile photo, project screenshots, resume PDF
+└── README.md
+```
 
-### Tourism in India
-A tourism website showcasing famous destinations and cultural heritage across India.
-
-### Big Basket Clone
-A frontend clone of the Big Basket grocery shopping platform.
-
-### Maya Technical Hub Clone
-A responsive recreation of the Maya Technical Hub website.
-
-## Live Demo
-
-Add your GitHub Pages link here.
-
-## Installation
+## 🚀 Getting Started
 
 1. Clone the repository
-2. Open the project folder
-3. Run index.html in a browser
+   ```bash
+   git clone https://github.com/VijayKiran-Beginner/Personal-Portfolio-Website.git
+   ```
+2. Navigate into the project folder
+   ```bash
+   cd Personal-Portfolio-Website
+   ```
+3. Open `index.html` in your browser, or run it with a local server (e.g., VS Code Live Server)
 
-## Author
+## 📌 Sections
 
-Vijay Kiran Kommoju
+| Section  | Description |
+|----------|-------------|
+| Home     | Introduction with animated typing effect and CTA buttons |
+| About    | Bio, core skills with progress bars, and CV download |
+| Projects | Clean Work, Tourism in India, Maya Technical Hub Clone, BigBasket Clone |
+| Contact  | Contact details, social links, and a validated message form |
 
-- Front-End Developer
-- Java Developer
-- DSA Solver
-- Spring Boot Enthusiast
+## 📫 Contact
+
+- **Email:** vijaykirankommoju.cse@gmail.com
+- **Location:** Kakinada, AP, India - 533002
+- **GitHub:** [VijayKiran-Beginner](https://github.com/VijayKiran-Beginner)
+- **LinkedIn:** [vijay-kiran-kommoju](https://www.linkedin.com/in/vijay-kiran-kommoju/)
+
+## 📄 License
+
+This project is open source and available for personal portfolio inspiration. Please give credit if you reuse significant parts of the design.
