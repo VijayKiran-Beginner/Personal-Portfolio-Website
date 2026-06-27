@@ -111,7 +111,7 @@ git push
 This portfolio has a companion **Login & Registration** gateway page that authenticates users before redirecting here:
 
 - Repo: [Responsive_Login_Form](https://github.com/VijayKiran-Beginner/Responsive_Login_Form/)
-- Live: `https://vijaykiran-beginner.github.io/Responsive_Login_Form/`
+- Live: https://vijaykiran-beginner.github.io/Responsive_Login_Form/
 
 ---
 
